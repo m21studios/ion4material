@@ -1,0 +1,183 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Music App</ion-title>
+    <ion-avatar slot="end">
+      <img src="../../assets/profile3.jpg" alt="" style="width: 42px; height: 42px; margin-right: 10px; margin-top: 10px;">
+    </ion-avatar>
+  </ion-toolbar>
+  <ion-toolbar color="success">
+    <ion-searchbar mode="ios"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!--ion-searchbar debounce="500" animated placeholder="Search"></!--ion-searchbar-->
+  <ion-item lines="none">
+    <ion-label slot="start">Albums</ion-label>
+    <ion-note slot="end" color="success">See All</ion-note>
+  </ion-item>
+
+  <!--slides Banners items-->
+  <ion-slides pager="false" [options]="slideOpts">
+    <ion-slide>
+      <div class="sli">
+        <img src="../../assets/albums/adele.jpg">
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="sli">
+        <img src="../../assets/albums/coldplay.jpg">
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="sli">
+        <img src="../../assets/albums/muse.jpg">
+      </div>
+    </ion-slide> 
+  </ion-slides>
+
+  <!--Slides Singers Items-->
+  <ion-item lines="none">
+    <ion-label slot="start">Singer</ion-label>
+    <ion-note slot="end" color="success">See All</ion-note>
+  </ion-item>
+
+  <br>
+  <ion-slides pager="false" [options]="slideOpts2">
+    <ion-slide>
+      <div class="sli2">
+        <img src="../../assets/albums/coldplay.jpg">
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="sli2">
+        <img src="../../assets/albums/adele.jpg">
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="sli2">
+        <img src="../../assets/albums/lenny.jpg">
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="sli2">
+        <img src="../../assets/albums/panic.jpg">
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="sli2">
+        <img src="../../assets/albums/paramore.jpg">
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="sli2">
+        <img src="../../assets/albums/muse.jpg">
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+  <!--Playlist Items-->
+  <br><br>
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Playlist</ion-label>
+    </ion-list-header>
+
+    <ion-item-sliding>
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../../assets/albums/paramore.jpg" style="width: 42px; height: 42px; margin-right: 10px">
+        </ion-avatar>
+        <ion-label>
+          <h2>Paramore</h2>
+          <p>Presure</p>
+        </ion-label>
+        <ion-note slot="end">
+          <p>3:52</p>
+        </ion-note>
+      </ion-item>
+      <ion-item-options>
+        <ion-item-option color="success">
+          <ion-icon slot="end" name="play" slot="icon-only"></ion-icon>
+        </ion-item-option>
+        <ion-item-option color="light">
+          <ion-icon slot="end" name="more" slot="icon-only"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    
+    <ion-item-sliding>
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../../assets/albums/lenny.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Lenny</h2>
+          <p>Again</p>
+        </ion-label>
+        <ion-note slot="end">
+          <p>4:22</p>
+        </ion-note>
+      </ion-item>
+      <ion-item-options>
+        <ion-item-option color="success">
+          <ion-icon slot="end" name="play" slot="icon-only"></ion-icon>
+        </ion-item-option>
+        <ion-item-option color="light">
+          <ion-icon slot="end" name="more" slot="icon-only"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../../assets/albums/adele.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Adele</h2>
+          <p>Song number 1</p>
+        </ion-label>
+        <ion-note slot="end">
+          <p>3:12</p>
+        </ion-note>
+      </ion-item>
+      <ion-item-options>
+        <ion-item-option color="success">
+          <ion-icon slot="end" name="play" slot="icon-only"></ion-icon>
+        </ion-item-option>
+        <ion-item-option color="light">
+          <ion-icon slot="end" name="more" slot="icon-only"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+    
+    <ion-item-sliding>
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../../assets/albums/coldplay.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Coldplay</h2>
+          <p>Fix you</p>
+        </ion-label>
+        <ion-note slot="end">
+          <p>4:15</p>
+        </ion-note>
+      </ion-item>
+      <ion-item-options>
+        <ion-item-option color="success">
+          <ion-icon slot="end" name="play" slot="icon-only"></ion-icon>
+        </ion-item-option>
+        <ion-item-option color="light">
+          <ion-icon slot="end" name="more" slot="icon-only"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+  
+</ion-content>
+

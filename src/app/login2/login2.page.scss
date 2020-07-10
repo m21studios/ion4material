@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700&display=swap');
+
+/*font-family: 'Nunito', sans-serif;*/
+ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+}
+
+.yellow{
+    width: 150px;
+    height: 150px;
+    background-color: #f9ca24;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 25%;
+}
+
+.red{
+    width: 150px;
+    height: 150px;
+    background-color: #eb4d4b;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.blue{
+    width: 150px;
+    height: 150px;
+    background-color: #30336b;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 40%;
+}
+
+p{
+    font-weight: 100;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}

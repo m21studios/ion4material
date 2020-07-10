@@ -1,0 +1,191 @@
+<ion-menu side="start" menuId="sidemenu" contentId="main"> 
+  <!--ion-header>
+    <ion-toolbar translucent>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header-->
+  <ion-content>
+    <div class="content-header">
+      <h1 class="example">Ion4Material.</h1>
+    </div>
+    
+    <div class="ion-padding">
+      <ion-list lines="none">
+        <ion-item lines="none">
+          <ion-icon name="settings" slot="start"></ion-icon>
+          <ion-label>
+            <p class="sidetext" >Settings</p>
+          </ion-label> 
+        </ion-item>
+      </ion-list>
+
+      <ion-label>Apps</ion-label>
+      <ion-list>
+        <ion-item lines="none" >
+          <ion-icon name="cart" slot="start"></ion-icon>
+          <ion-label (click)="goEccomerce()">
+            <p class="sidetext">Ecommerce App</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="chatboxes" slot="start"></ion-icon>
+          <ion-label (click)="goChatApp()">
+            <p class="sidetext">Chat App</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="images" slot="start"></ion-icon>
+          <ion-label (click)="goGalleryApp()">
+            <p class="sidetext">Gallery App</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="clipboard" slot="start"></ion-icon>
+          <ion-label (click)="goTodoApp()">
+            <p class="sidetext">ToDo App</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="arrow-dropright-circle" slot="start"></ion-icon>
+          <ion-label (click)="goMusicApp()">
+            <p class="sidetext">Music App</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="cloud-upload" slot="start"></ion-icon>
+          <ion-label (click)="goFileUploadApp()">
+            <p class="sidetext">FileUpload App</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+
+      <ion-label>UI Templates</ion-label>
+      <ion-list>
+        <ion-item lines="none">
+          <ion-icon name="person-add" slot="start"></ion-icon>
+          <ion-label (click)="goRegister1()">
+            <p class="sidetext">Register v1</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="person-add" slot="start"></ion-icon>
+          <ion-label (click)="goRegister2()">
+            <p class="sidetext">Register v2</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="person-add" slot="start"></ion-icon>
+          <ion-label (click)="goRegister3()">
+            <p class="sidetext">Register v3</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="person-add" slot="start"></ion-icon>
+          <ion-label (click)="goRegister4()">
+            <p class="sidetext">Register v4</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="person-add" slot="start"></ion-icon>
+          <ion-label (click)="goRegister5()">
+            <p class="sidetext">Register v5</p>
+          </ion-label>
+        </ion-item>
+        <hr>
+        <ion-item lines="none">
+          <ion-icon name="at" slot="start"></ion-icon>
+          <ion-label (click)="goLogin1()">
+            <p class="sidetext">Login v1</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="at" slot="start"></ion-icon>
+          <ion-label (click)="goLogin2()">
+            <p class="sidetext">Login v2</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="at" slot="start"></ion-icon>
+          <ion-label (click)="goLogin3()">
+            <p class="sidetext">Login v3</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="at" slot="start"></ion-icon>
+          <ion-label (click)="goLogin4()">
+            <p class="sidetext">Login v4</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="at" slot="start"></ion-icon>
+          <ion-label (click)="goLogin5()">
+            <p class="sidetext">Login v5</p>
+          </ion-label>
+        </ion-item>
+        <hr>
+        <ion-item lines="none">
+          <ion-icon name="key" slot="start"></ion-icon>
+          <ion-label (click)="goRecover1()">
+            <p class="sidetext">Account recover v1</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="key" slot="start"></ion-icon>
+          <ion-label (click)="goRecover2()">
+            <p class="sidetext">Account recover v2</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="key" slot="start"></ion-icon>
+          <ion-label (click)="goRecover3()">
+            <p class="sidetext">Account recover v3</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="key" slot="start"></ion-icon>
+          <ion-label (click)="goRecover4()">
+            <p class="sidetext">Account recover v4</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="key" slot="start"></ion-icon>
+          <ion-label (click)="goRecover5()">
+            <p class="sidetext">Account recover v5</p>
+          </ion-label>
+        </ion-item>
+        <hr>
+        <ion-item lines="none">
+          <ion-icon name="apps" slot="start"></ion-icon>
+          <ion-label (click)="goDashboard1()">
+            <p class="sidetext">Dashboard v1</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="apps" slot="start"></ion-icon>
+          <ion-label (click)="goDashboard2()">
+            <p class="sidetext">Dashboard v2</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="apps" slot="start"></ion-icon>
+          <ion-label (click)="goDashboard3()">
+            <p class="sidetext">Dashboard v3</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="apps" slot="start"></ion-icon>
+          <ion-label (click)="goDashboard4()">
+            <p class="sidetext">Dashboard v4</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-icon name="apps" slot="start"></ion-icon>
+          <ion-label (click)="goDashboard5()">
+            <p class="sidetext">Dashboard v5</p>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+
+    </div>
+  </ion-content>
+</ion-menu>

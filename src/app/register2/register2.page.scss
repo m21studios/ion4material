@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Public+Sans:100,200,300,400,500,700&display=swap');
+
+.bg-image{
+    width:100%;
+    height:100%;
+    background-image: url('../../assets/food1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: cover; 
+    background-size: auto;
+    background-origin: content-box;
+}
+
+.main-container{
+    width:100%;
+    height:50%;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    margin-top: 200px;
+}
+
+.logo-app{
+    width: 100%;
+    height: 250px;
+    margin: 10px auto;
+    align-content: center;
+}
+
+p{
+    font-weight: 100;
+    font-size: 16px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+ion-input{
+    font-weight: 100;
+    font-size: 16px;
+    font-family: 'Public Sans', sans-serif;
+}

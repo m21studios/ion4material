@@ -1,0 +1,39 @@
+/*import custom styles*/
+@import "../../assets/customstyles/custom-buttons.css";
+@import "../../assets/customstyles/custom-inputs.css";
+@import "../../assets/customstyles/custom-avatars.css";
+
+.content-header{
+    width: 100%;
+    height: 40%;
+    margin: 10px auto;
+    padding: 0;
+    display: block;
+    justify-content: center;
+
+    h1{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        margin: 20px auto;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 32px;
+        position: absolute;
+        top: 40px;
+    }
+
+    p{
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        margin: 10px auto;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        position: absolute;
+        top: 140px;
+    }
+}
+

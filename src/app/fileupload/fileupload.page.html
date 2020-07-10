@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Fileupload</ion-title>
+    <ion-avatar slot="end">
+      <img src="../../../assets/profile3.jpg" alt="" style="width: 42px; height: 42px; margin-right: 10px; margin-top: 10px;">
+    </ion-avatar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  
+  <div class="ion-text-center iw">
+    <!--i class="material-icons ">create_new_folder </i-->
+  </div>
+  
+  <div class="input-file ion-activatable">
+    <h1 class="btn-add">+</h1>
+    <ion-ripple-effect type="bounded"></ion-ripple-effect>
+  </div>
+
+  <div class="input-file-name">
+    <br>
+
+    <ion-label><h4>lorem ipsum.txt</h4></ion-label>
+    <ion-item lines="none">
+      <ion-range min="0" max="100" color="dark">
+        <ion-note slot="end">0%</ion-note>
+      </ion-range>
+    </ion-item>
+  </div>
+
+  <br>
+  
+  
+
+</ion-content>
+<ion-footer>
+  <ion-toolbar color="light">
+    <ion-button color="dark" expand="block" (click)="presentActionSheet()">Upload File</ion-button>
+  </ion-toolbar>
+</ion-footer>
+
+

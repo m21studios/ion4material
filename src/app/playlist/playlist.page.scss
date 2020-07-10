@@ -1,0 +1,42 @@
+.image-playing{
+    width: 256px;
+    height: 256px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.song-name{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.song-album{
+    font-weight: 100;
+    font-size: 14px;
+}  
+
+.btn-music{
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px auto;
+    align-content: center;
+    justify-content: center;
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    tr{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th{
+        width: 25%;
+        /*border: 1px solid black;*/
+        border-collapse: collapse;
+    }
+}

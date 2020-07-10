@@ -1,0 +1,32 @@
+.banner{
+    width: 100%;
+    height: 220px;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px 4px 4px 4px;
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    .infobanner{
+        width: 100%;
+        height: 50px;
+        position: relative;
+        bottom: 70px;
+        z-index: 1;
+        background-color: rgba($color: #14141486, $alpha: .2);
+
+        h1{
+            position: relative;
+            margin: 10px auto;
+            font-weight: 300;
+            font-size: 26px;
+            color: white;
+        }
+    }
+
+   
+}

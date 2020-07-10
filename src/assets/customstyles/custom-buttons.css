@@ -1,0 +1,105 @@
+/*CUSTOM BUTTONS CSS*/
+
+.btn-primary{
+    width: 98%;
+    height: 42px;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    background-color: #00a8ff;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid #029ae6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 8px 8px 8px;
+}
+
+.btn-secondary{
+    width: 98%;
+    height: 42px;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    background-color: #C4E538;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid rgb(182, 211, 52);
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 8px 8px 8px;
+}
+
+.btn-light{
+    width: 98%;
+    height: 42px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #2f3640;
+    background-color: #f5f6fa;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid #e3e3e6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 8px 8px 8px;
+}
+
+.btn-dark{
+    width: 98%;
+    height: 42px;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    background-color: #2f3640;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid #262b33;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 8px 8px 8px;
+}
+
+.btn-danger{
+    width: 98%;
+    height: 42px;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    background-color: #e84118;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid #da3f18;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 8px 8px 8px;
+}
+
+.btn-bluemartina{
+    width: 98%;
+    height: 42px;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    background-color: #12CBC4;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid rgb(17, 184, 178);
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 8px 8px 8px;
+}
+
+.btn-sunflower{
+    width: 98%;
+    height: 42px;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    background-color: #FFC312;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid rgb(233, 179, 18);
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 8px 8px 8px;
+}
+
+.btn-highdanger{
+    width: 98%;
+    height: 42px;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    background-color: #EA2027;
+    border-radius: 2px 2px 2px 2px;
+    border-bottom: 2px solid rgb(216, 31, 37);
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 8px 8px 8px;
+}

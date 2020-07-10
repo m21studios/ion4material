@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Gallery App</ion-title>
+    
+    <ion-icon name="more" slot="end" color="dark" size="large"></ion-icon>
+   
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content class="ion-padding">
+ 
+  <div class="pins">
+    <div class="pin" *ngFor="let imagedata of imagelist">
+      <img [src]="imagedata.image" class="imgclass">
+      <ion-icon name="share" color="dark" slot="end"></ion-icon>
+      <!--ion-item lines="none">
+        <ion-label slot="start">
+          <p>{{imagedata.description}}</p>
+        </ion-label>
+        <ion-badge slot="end">{{imagedata.likes}}</ion-badge>
+      </!ion-item-->
+    </div>
+  </div>
+
+</ion-content>

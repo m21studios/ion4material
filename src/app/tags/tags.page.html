@@ -1,0 +1,150 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar color="primary">
+    <ion-title size="large">Tags</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-chip>
+    <ion-label>Tag 1</ion-label>
+  </ion-chip>
+
+  <ion-chip color="primary" outline="true">
+    <ion-label>Tag 2</ion-label>
+  </ion-chip>
+  
+  <ion-chip color="secondary">
+    <ion-label color="secondary">Tag 3</ion-label>
+  </ion-chip>
+
+  <ion-chip outline="true" color="secondary">
+    <ion-label color="secondary">Tag 4</ion-label>
+  </ion-chip>
+  
+  <ion-chip color="secondary">
+    <ion-label color="dark">Tag 5</ion-label>
+  </ion-chip>
+  
+  <ion-chip color="danger">
+    <ion-icon name="pin"></ion-icon>
+    <ion-label>Tag 6</ion-label>
+  </ion-chip>
+  
+  <ion-chip color="tertiary">
+    <ion-icon name="heart" color="dark"></ion-icon>
+    <ion-label>Tag 7</ion-label>
+  </ion-chip>
+  
+  <ion-chip outline="true">
+    <ion-label>Button Tag</ion-label>
+    <ion-icon name="close-circle"></ion-icon>
+  </ion-chip>
+  
+  <ion-chip color="success">
+    <ion-label>Icon Tag</ion-label>
+    <ion-icon name="close"></ion-icon>
+  </ion-chip>
+  
+  <ion-chip outline="true">
+    <ion-avatar>
+      <img src="../../assets/profile1.jpg" width="18px" height="18px">
+    </ion-avatar>
+    <ion-label>Avatar Tag</ion-label>
+  </ion-chip>
+
+  <ion-chip color="primary">
+    <ion-avatar>
+      <img src="../../assets/profile1.jpg" width="18px" height="18px">
+    </ion-avatar>
+    <ion-label>Avatar Tag</ion-label>
+  </ion-chip>
+
+  <br><br><br>
+  <ion-label color="primary">Slides Tags</ion-label>
+  <br><br>
+  
+  <ion-slides pager="false" [options]="slideOpts">
+    <ion-slide>
+      <ion-chip color="primary">
+        <ion-avatar>
+          <img src="../../assets/profile1.jpg">
+        </ion-avatar>
+        <ion-label>Tag</ion-label>
+      </ion-chip>
+
+      <br><br>
+    </ion-slide>
+    <ion-slide>
+      <ion-chip color="primary">
+        <ion-avatar>
+          <img src="../../assets/profile1.jpg">
+        </ion-avatar>
+        <ion-label>Tag</ion-label>
+      </ion-chip>
+
+      <br><br>
+    </ion-slide>
+    <ion-slide>
+      <ion-chip color="primary">
+        <ion-avatar>
+          <img src="../../assets/profile1.jpg">
+        </ion-avatar>
+        <ion-label>Tag</ion-label>
+      </ion-chip>
+
+      <br><br>
+    </ion-slide>
+    <ion-slide>
+      <ion-chip color="primary">
+        <ion-avatar>
+          <img src="../../assets/profile1.jpg">
+        </ion-avatar>
+        <ion-label>Tag</ion-label>
+      </ion-chip>
+      <br><br>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-chip color="primary">
+        <ion-avatar>
+          <img src="../../assets/profile1.jpg" >
+        </ion-avatar>
+        <ion-label>Tag</ion-label>
+      </ion-chip>
+      <br><br>
+    </ion-slide>
+  </ion-slides>
+
+  <br><br>
+  <ion-label color="primary">Card Text + Tags</ion-label>
+  <br><br>
+  <ion-card>
+    <img src="../../assets/hotel3.jpg" alt="">
+    <ion-card-header>
+      <ion-card-title>Lorem, ipsum dolor.</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ratione libero sequi praesentium autem iure unde a qui repellendus? Qui velit voluptate tenetur ut perspiciatis sit incidunt voluptatum ratione quia quaerat enim, excepturi iure dignissimos mollitia eveniet similique odio exercitationem dolore, magni facilis fugit. Laborum?
+      <br>
+      <ion-chip color="primary" outline="true">
+        <ion-label>Tag card</ion-label>
+      </ion-chip>
+      <ion-chip color="primary" outline="true">
+        <ion-label>Tag card</ion-label>
+      </ion-chip>
+      <ion-chip color="primary" outline="true">
+        <ion-label>Tag card</ion-label>
+      </ion-chip>
+      <ion-chip color="primary" outline="true">
+        <ion-label>Tag card</ion-label>
+      </ion-chip>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>

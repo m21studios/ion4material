@@ -1,0 +1,12 @@
+.input-primary{
+    width: 98%;
+    height: 42px;
+    font-weight: 100;
+    font-size: 18px;
+    color: black;
+    border: 1px solid #00a8ff;
+    border-radius: 4px 4px 4px 4px;
+    border-bottom: 2px solid #029ae6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px 8px 8px 8px;
+}
