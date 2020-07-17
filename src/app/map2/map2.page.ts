@@ -20,7 +20,7 @@ export class Map2Page implements OnInit {
   leafletMap() {
     this.map = Leaflet.map('mapId').setView([28.644800, 77.216721], 5);
     Leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: 'edupala.com © Angular LeafLet',
+      attribution: 'Ion4Material',
     }).addTo(this.map);
 
     Leaflet.marker([28.6, 77]).addTo(this.map).bindPopup('Delhi').openPopup();

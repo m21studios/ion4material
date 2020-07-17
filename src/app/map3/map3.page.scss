@@ -1,0 +1,25 @@
+.card-info{
+    width: 90%;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid whitesmoke;
+    position: relative;
+    margin: 10px auto;
+    z-index: 1;
+
+    h1{
+        font-size: 22px;
+        color: rgb(31, 31, 31);
+        margin: 10px auto;
+        width: 80%;
+        margin-top: 15px;
+    }
+
+    p{
+        font-size: 18px;
+        font-weight: 100;
+        margin: 10px auto;
+        text-align: justify;
+        width: 80%;
+    }
+}

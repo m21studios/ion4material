@@ -1,9 +1,58 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>map3</ion-title>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title size="small">Map 3 - Card Info</ion-title>
+    <ion-icon name="locate" slot="end" color="light"  style="margin-right: 12px; font-size: 18px;"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="ion-padding">
+  <div id="mapId" style="width: 100%; height: 70%">
+  </div>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        <ion-item lines="none">
+          Ion4Material Map
+          <ion-icon name="locate" color="dark" slot="end"></ion-icon>
+        </ion-item>
+      </ion-card-title>    
+    </ion-card-header>
+    <ion-card-content>
+      <img src="../../assets/hotel1.jpg" alt="">
+      <div>
+        <span>
+          <ion-icon name="people"></ion-icon>
+          Jhon Doe
+        </span>
+        <br>
+        <span>
+          <ion-icon name="locate"></ion-icon>
+          Sit Amet Hotel
+        </span>
+      </div>
+      
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ex ipsam quasi eaque fugiat, beatae nulla deleniti maiores vitae soluta, expedita earum inventore voluptatem perferendis.
+      </div>
+      <div>
+        <span>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star-half"></ion-icon>
+        </span>  
+      </div>  
+     
+      
+       
+       
+    </ion-card-content>
+    
+  </ion-card>
 
 </ion-content>

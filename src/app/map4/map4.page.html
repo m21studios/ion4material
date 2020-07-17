@@ -1,9 +1,14 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>map4</ion-title>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title size="small">Map My Position</ion-title>
+    <ion-icon name="locate" slot="end" color="light"  style="margin-right: 12px; font-size: 18px;" (click)="getMyPosition()"></ion-icon>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content class="ion-padding">
+  <div id="mapId" style="width: 100%; height: 70%">
+  </div>
 </ion-content>
